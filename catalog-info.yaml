@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: python-app
+  description: Python app that return api data using Flask
+  # Example for optional annotations
+  annotations:
+    github.com/project-slug: minhpham95/python-app
+
+spec:
+  type: service
+  owner: development
+  lifecycle: experimental
