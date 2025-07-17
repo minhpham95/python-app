@@ -6,7 +6,7 @@ metadata:
   # Example for optional annotations
   annotations:
     github.com/project-slug: minhpham95/python-app
-
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: service
   owner: development

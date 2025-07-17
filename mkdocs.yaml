@@ -1,0 +1,18 @@
+site_name: 'python-app'
+site_description: 'Main documentation for python-app'
+repo_url: https://github.com/minhpham95/python-app
+edit_uri: edit/main/docs
+
+plugins:
+  - techdocs-core
+  - redirects:
+      redirect_maps:
+        'index.md': 'docs/index.md'
+
+# For sidebar navigation on https://backstage.io/, see `microsite/sidebars.js`
+nav:
+  - Overview:
+      - Getting Started: 'docs/index.md'
+      - Architecture overview: 'docs/index.md'
+      - Project Roadmap: 'docs/index.md'
+      - Vision: 'docs/index.md'
