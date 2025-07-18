@@ -2,7 +2,7 @@ replicaCount: 1
 image:
   repository: plminha13/python-app
   pullPolicy: IfNotPresent
-  tag: 3aaa69
+  tag: '058641'
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
